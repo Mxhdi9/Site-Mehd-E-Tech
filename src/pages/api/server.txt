@@ -1,12 +1,14 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+import { NextResponse , NextRequest } from "next/server";
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.post('/contact', (req, res) => {
-  const { name, email, message } = req.body;
+/*app.post('/contact', (req : NextRequest , res : NextResponse) => {
+ // const { name, email, message } = req.body;
   // Implémentez ici la logique de traitement et d'envoi de l'email
   console.log('Nom:', name);
   console.log('Email:', email);
@@ -17,3 +19,4 @@ app.post('/contact', (req, res) => {
 app.listen(port, () => {
   console.log(`Le serveur est démarré sur le port ${port}`);
 });
+*/
