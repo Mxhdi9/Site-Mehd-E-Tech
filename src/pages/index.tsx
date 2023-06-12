@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Index(){
   return(
 <>
 <h1 className='text-red-800 text-center text-4xl my-8'>
-    Salam tu es bien sur Mehdi-E-Tech
+    Salam tu es bien sur Mehd-E-Tech
 </h1>
 <div className="container mx-auto px-4"></div><div>
 <form className="flex-grow flex justify-center mr-4"></form>
@@ -17,9 +18,9 @@ function Index(){
               />
 </div>
 <div className="flex space-x-2"></div>
-<p className="text-white text-center mb-8">
-        Les promotions du moments 🥳🥳🥳
-        </p>
+<p className="text-white text-center text-2xl mb-8">
+    Les promotions du moment 🥳🥳🥳
+</p>
      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div className="bg-white p-4">
             
@@ -29,13 +30,18 @@ function Index(){
             </p>
             <div className="flex justify-between items-center">
               <span className="text-gray-500" style={{ fontSize: "20px" }}>2989,86 €</span>
-
-              <a
-                href="/test/public/ampoule1.jpeg"
+               <Image
+                src= {"/img/pcgaming.jpg"}
+              alt="Ecran Gaming"
+              width={300}
+              height={0}
+              />
+              <Link
+                href="/img"
                 className="bg-blue-500 text-white px-4 py-2"
               >
                 ajouter au panier
-              </a>
+              </Link>
             </div>
           </div>
           <div className="bg-white p-4">
@@ -45,13 +51,18 @@ function Index(){
                 Devenez un pro de la vision grace a votre écran 4K 165Hz 🥵🥵🥵
             </p>
             <div className="flex justify-between items-center">
-              <span className="text-gray-500" style={{ fontSize: "20px" }}>1180,99 €</span>
-              <a
-                href="/test/public/ampoule1.jpeg"
+              <span className="text-gray-500" style={{ fontSize: "20px" }}>499,99 €</span>
+              <Image
+                src= {"/img/ecrangaming.jfif"}
+              alt="Ecran Gaming"
+              width={300}
+              height={0}
+              />
+              <Link 
+                href="/img"
                 className="bg-blue-500 text-white px-4 py-2"
-              >
-                Ajouter au panier
-              </a>
+              >Ajouter au panier
+              </Link>
             </div>
           </div>
 
@@ -69,7 +80,9 @@ function Index(){
               width={300}
               height={0}
               />
-                Ajouter au panier 
+               <Link href = {"/img"}
+                className="bg-blue-500 text-white px-4 py-2"
+              >Ajouter au panier </Link>
               
             </div>
           </div>
