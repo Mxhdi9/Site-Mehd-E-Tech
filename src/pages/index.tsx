@@ -9,7 +9,7 @@ function Index(){
 <h1 className='text-white text-center text-4xl my-8'>
     Salam tu es bien sur Mehd-E-Tech
     <button>
-    <Link href="/panier" className="bg-green-500 text-white px-4 py-2">Panier </Link>
+    <Link href="/loginUser" className="bg-green-500 text-white px-4 py-2">Panier </Link>
               </button>
 </h1>
 
