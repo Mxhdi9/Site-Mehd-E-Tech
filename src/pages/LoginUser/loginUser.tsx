@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { HtmlHTMLAttributes } from 'react';
+
+
 function Connexion() {
   return (
     <>
@@ -35,15 +37,11 @@ function Connexion() {
         </form>
 
         <div className="flex justify-center mt-4">
-          <Link href="/index">
-            <a className="bg-blue-500 text-white px-4 py-2 rounded">
-              Retour à l accueil
-            </a>
-          </Link>
+          <Link href="/index"> <p>Retour à laccueil</p></Link>
           <Link href="/inscription">
-            <a className="bg-blue-500 text-white px-4 py-2 rounded ml-2">
+            <p className="bg-blue-500 text-white px-4 py-2 rounded ml-2">
               Inscription
-            </a>
+            </p>
           </Link>
         </div>
       </div>
