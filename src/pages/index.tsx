@@ -3,15 +3,23 @@ import ReactDOM from 'react-dom';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 function Index(){
   return(
 <>
 <h1 className='text-white text-center text-4xl my-8'>
     Salam tu es bien sur Mehd-E-Tech
-    <button>
-    <Link href="/loginUser" className="bg-green-500 text-white px-4 py-2">Panier </Link>
-              </button>
 </h1>
+
+<Link href="./LoginUser.tsx">
+<div className="flex justify-end">
+  
+  <button type="button"className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ml-auto">
+  Connexion
+</button>
+
+</div>   
+            </Link>
 
 <div className="container mx-auto px-4"></div><div>
 <form className="flex-grow flex justify-center mr-4"></form>

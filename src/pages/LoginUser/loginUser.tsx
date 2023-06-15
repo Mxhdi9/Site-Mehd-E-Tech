@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import { HtmlHTMLAttributes } from 'react';
 function Connexion() {
   return (
     <>
