@@ -2,8 +2,9 @@ import React from 'react';
 
 export const Header:React.FC = () => {
   return (
-    <header className="bg-blue-500 text-white py-4">
+    <header className="">
       <div className="container mx-auto flex">
+     TEST
       </div>
     </header>
   );

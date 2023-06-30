@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-function Inscription () 
+const function Inscription () 
   return (
     <div
       className="container mx-auto px-4 min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
