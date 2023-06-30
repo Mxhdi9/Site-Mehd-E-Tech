@@ -8,7 +8,7 @@ function Moniteur() {
         {/* Affichage du produit à gauche */}
         <div className="rounded-lg overflow-hidden">
           <Image
-            src="/img/ecrangaming.jfif"
+            src="/img/moniteur.jpg"
             alt="Produit"
             className="w-full"
             width={800}
@@ -22,20 +22,17 @@ function Moniteur() {
 
         {/* Description de produit à droite */}
         <p className="text-white text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut
-          lacus ex. Curabitur vel bibendum magna, ut efficitur neque. Sed
-          tristique diam lectus, nec bibendum nunc lacinia sed. Pellentesque
-          habitant morbi tristique senectus et netus et malesuada fames ac
-          turpis egestas. Quisque hendrerit purus nec ligula facilisis, eget
-          dignissim dolor dignissim. Etiam venenatis lobortis semper. Fusce
-          iaculis quam in fringilla lacinia. Nullam et mauris eu lacus blandit
-          pharetra. Aliquam et neque vulputate, pretium leo vel, ultrices diam.
-          Proin eget sapien aliquet, malesuada neque eget, accumsan odio. Duis
-          dapibus, risus et venenatis lacinia, ipsum mi congue metus, at
-          pellentesque nisl nunc id felis. Suspendisse non varius ex. Duis
-          commodo feugiat augue, eget ultrices lectus ultricies vel. Fusce
-          sollicitudin condimentum quam id malesuada. Vestibulum in ante nec
-          ipsum rutrum consectetur.
+          Découvrez l écran gaming 165 Hz ultime, offrant une expérience visuelle à couper le souffle. Plongez au cœur de l action avec des images d une fluidité exceptionnelle et des détails incroyablement nets.
+
+Cet écran gaming haut de gamme est doté d un panneau IPS de pointe, offrant des couleurs vibrantes et une précision spectaculaire. Chaque pixel est rendu avec une clarté cristalline, vous permettant de voir les moindres détails de vos jeux préférés. Que vous exploriez des mondes fantastiques, participiez à des combats épiques ou viviez des moments intenses, cet écran vous transporte au cœur de l action avec une immersion totale.
+
+Avec un taux de rafraîchissement de 165 Hz, cet écran vous offre des images d une fluidité exceptionnelle. Les mouvements sont incroyablement réactifs, éliminant pratiquement tout effet de flou et de traînée. Vous pouvez dire adieu aux décalages et aux saccades, et profiter d une expérience de jeu incroyablement fluide et réactive.
+
+Que vous soyez un joueur professionnel ou passionné, cet écran est conçu pour répondre à vos besoins les plus exigeants. Son temps de réponse ultra-rapide de 1 ms réduit au minimum le décalage entre vos actions et ce qui se passe à l écran, vous offrant un avantage compétitif inégalé. Vous pouvez réagir plus rapidement aux situations, viser avec précision et prendre des décisions stratégiques en temps réel.
+
+L écran gaming 165 Hz ultime est également doté de fonctionnalités avancées telles que la technologie FreeSync ou G-Sync, qui synchronisent le taux de rafraîchissement de l écran avec la sortie de votre carte graphique, éliminant ainsi les déchirures d écran et assurant une expérience de jeu parfaitement fluide.
+
+Préparez-vous à une immersion visuelle totale avec l écran gaming 165 Hz ultime. Profitez d une qualité d image exceptionnelle, d une fluidité sans compromis et d une réactivité inégalée. Que vous soyez un joueur compétitif ou un passionné de jeux, cet écran repoussera les limites de vos performances et vous fera vivre des moments de jeu incroyables.
         </p>
       </div>
     </div>

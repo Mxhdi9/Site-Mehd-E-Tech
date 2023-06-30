@@ -6,23 +6,19 @@ import Link from 'next/link';
 function Index() {
   return (
     <>
-    <h1 className="text-white text-center text-4xl my-8">
+      <h1 className="text-white text-center text-4xl my-8">
         Salam tu es bien sur Mehd-E-Tech
       </h1>
 
       <nav className="flex justify-center items-center mb-4">
         <div className="flex">
-          <Link href="/index.tsx" className="bg-purple-500 text-white px-4 py-2">
-            Ordinateur Gaming
+          <Link href="../index" className="bg-purple-500 text-white px-4 py-2">
+            Accueil
           </Link>
 
-          <Link href="/index.tsx" className="bg-purple-500 text-white px-4 py-2">
-            Moniteurs Gaming
-          </Link>
+          <Link href="/src/pages/Produits/produit.tsx" className="bg-purple-500 text-white px-4 py-2"> Produits </Link>
 
-          <Link href="/index.tsx" className="bg-purple-500 text-white px-4 py-2">
-            Chaises Gaming
-          </Link>
+          <Link href="/index.tsx" className="bg-purple-500 text-white px-4 py-2">Panier (Maintenance)</Link>
         </div>
       </nav>
 
@@ -30,8 +26,7 @@ function Index() {
         <Link href="/LoginUser/loginUser">
           <button
             type="button"
-            className="bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-red-700 dark:hover:bg-red-800 focus:outline-none dark:focus:ring-red-800 ml-2"
-          >
+            className="bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-6 py-3 mb-2 dark:bg-red-700 dark:hover:bg-red-800 focus:outline-none dark:focus:ring-red-800 ml-2">
             <span className="inline-block text-white">Connexion</span>
           </button>
         </Link>
@@ -91,7 +86,7 @@ function Index() {
                 499,99 €
               </span>
               <Image
-                src="/img/ecrangaming.jfif"
+                src="/img/moniteur.jpg"
                 alt="Ecran Gaming"
                 width={300}
                 height={0}

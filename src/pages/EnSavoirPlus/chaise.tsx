@@ -22,20 +22,19 @@ function Chaise() {
 
         {/* Description de produit à droite */}
         <p className="text-white text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut
-          lacus ex. Curabitur vel bibendum magna, ut efficitur neque. Sed
-          tristique diam lectus, nec bibendum nunc lacinia sed. Pellentesque
-          habitant morbi tristique senectus et netus et malesuada fames ac
-          turpis egestas. Quisque hendrerit purus nec ligula facilisis, eget
-          dignissim dolor dignissim. Etiam venenatis lobortis semper. Fusce
-          iaculis quam in fringilla lacinia. Nullam et mauris eu lacus blandit
-          pharetra. Aliquam et neque vulputate, pretium leo vel, ultrices diam.
-          Proin eget sapien aliquet, malesuada neque eget, accumsan odio. Duis
-          dapibus, risus et venenatis lacinia, ipsum mi congue metus, at
-          pellentesque nisl nunc id felis. Suspendisse non varius ex. Duis
-          commodo feugiat augue, eget ultrices lectus ultricies vel. Fusce
-          sollicitudin condimentum quam id malesuada. Vestibulum in ante nec
-          ipsum rutrum consectetur.
+          Découvrez la chaise gaming ultime en termes de confort, conçue spécialement pour les joueurs passionnés. Plongez dans une expérience de jeu immersive et prolongée grâce à cette chaise révolutionnaire.
+
+La chaise gaming ultime est dotée d un design ergonomique qui soutient parfaitement votre corps pendant les longues sessions de jeu. Son dossier haut et ses coussins lombaires intégrés offrent un soutien optimal pour votre colonne vertébrale, réduisant ainsi les douleurs et les tensions. Vous pouvez vous concentrer pleinement sur votre jeu sans vous soucier des inconforts.
+
+Cette chaise est équipée d un rembourrage de qualité supérieure qui garantit un confort absolu. Chaque centimètre de la chaise est recouvert d un matériau doux et durable, offrant une sensation agréable au toucher. Vous vous sentirez comme si vous étiez assis sur un nuage, même pendant les sessions de jeu les plus intenses.
+
+L ajustabilité est également un aspect clé de cette chaise gaming. Vous pouvez régler la hauteur du siège pour trouver la position idéale qui correspond à votre taille et à votre posture. Les accoudoirs sont également réglables en hauteur et en angle, vous permettant de les ajuster pour un soutien optimal de vos bras et de vos poignets.
+
+De plus, la chaise gaming ultime est dotée de fonctionnalités supplémentaires qui améliorent votre expérience de jeu. Elle est équipée d un support lombaire intégré qui peut être ajusté pour s adapter parfaitement à la courbure de votre dos. Vous pouvez ainsi maintenir une posture correcte et éviter les douleurs dorsales.
+
+Cette chaise gaming est conçue pour durer. Sa structure solide et durable peut supporter des utilisateurs de différentes tailles et poids, offrant une stabilité et une durabilité exceptionnelles. Vous pouvez compter sur cette chaise pour vous accompagner pendant de nombreuses années de jeu intense.
+
+Préparez-vous à des heures de confort optimal avec la chaise gaming ultime. Que vous jouiez pendant de courtes sessions ou que vous vous lanciez dans des marathons de jeu, cette chaise est là pour vous offrir un soutien inégalé et un confort absolu. Profitez d une expérience de jeu sans compromis et plongez dans une détente totale grâce à cette chaise gaming haut de gamme.
         </p>
       </div>
     </div>
