@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import mongoose from 'mongoose';
 
 function Index() {
   return (
@@ -16,7 +17,7 @@ function Index() {
           </Link>
 
           <Link
-            href="/src/pages/Produits/produit.tsx"
+            href="/Produits/produit"
             className="bg-purple-500 text-white px-4 py-2"
           >
             Produits
